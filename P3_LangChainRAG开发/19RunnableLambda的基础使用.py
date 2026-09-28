@@ -15,7 +15,7 @@ model = ChatTongyi(model="qwen3-max", dashscope_api_key=os.getenv("DASHSCOPE_API
 
 # 第一个提示词模版
 fisrt_prompt = PromptTemplate.from_template(
-    "我邻居姓：{lastname},刚生了{gender},请帮忙起名子，仅告知我名字，不要额外信息。"
+    "我邻居姓：{lastname},刚生了{gender},请帮忙起名子，仅生成一个名字，并告知我名字，不要额外信息。"
 )
 
 # 第二个提示词模版
