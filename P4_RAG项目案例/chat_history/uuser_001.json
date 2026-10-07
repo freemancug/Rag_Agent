@@ -1,0 +1,102 @@
+[
+    {
+        "type": "human",
+        "data": {
+            "content": "我的体170厘米，尺码推荐",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "根据您提供的身高170厘米，结合参考资料中的尺码推荐：\n\n- 若体重在90–115斤之间，建议尺码为 **M**；\n- 若体重在115–135斤之间，建议尺码为 **L**。\n\n请根据您的实际体重选择对应尺码。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "我的体170厘米，尺码推荐",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "根据您提供的身高170厘米，参考尺码推荐如下：\n\n- 若体重在 **90–115斤**，建议选择 **M 码**；  \n- 若体重在 **115–135斤**，建议选择 **L 码**。\n\n请结合您的实际体重选择合适尺码。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "春天穿什么颜色的衣服？",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "春季适合穿**清新柔和的颜色**，如：\n\n- 樱花粉  \n- 薄荷绿  \n- 浅蓝色  \n\n这些颜色契合春天万物复苏的氛围，显得轻盈、明亮又富有生机。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "针织毛衣如何保养？",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "参考资料中未直接提及“针织毛衣”的保养方法，但可结合通用养护小贴士及类似材质（如保暖内衣、加绒牛仔）的护理原则，给出以下建议：\n\n**洗涤：**  \n- 水温 ≤30℃，使用中性洗涤剂；  \n- 手洗为佳，若机洗请选择轻柔模式，避免强力旋转导致变形；  \n- 不同颜色分开清洗，防止染色；洗涤剂充分溶解后再放入衣物。\n\n**养护：**  \n- 平铺阴干，避免悬挂导致拉伸变形；  \n- 避免暴晒，以防纤维老化、褪色；  \n- 收纳时折叠平整，置于干燥处，长期存放前确保完全干燥，以防霉变或虫蛀；  \n- 熨烫前查看洗标，首次熨烫可在内侧测试温度，避免高温损伤纤维。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    }
+]
