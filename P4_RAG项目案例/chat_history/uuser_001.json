@@ -98,5 +98,130 @@
             "invalid_tool_calls": [],
             "usage_metadata": null
         }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "我的体重是180斤，尺码推荐",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "根据您提供的体重 **180斤**，结合身高 **170厘米**（依据对话历史），此体重已超出常规尺码推荐范围（通常上限为135斤左右对应L码）。\n\n建议选择 **加大尺码（如XL或XXL）**，但具体还需参考品牌实际尺码表，因为不同品牌对大码的定义差异较大。如有条件，优先查看该商品详情页的 **胸围、腰围、衣长等具体数据**，或咨询客服以获得更准确的推荐。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "我的体重是180斤，尺码推荐",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "根据您提供的体重 **180斤**，并结合您此前提到的身高 **170厘米**，您的体型属于偏胖或大码范畴。常规尺码推荐（如M、L）通常适用于体重在90–135斤之间，因此：\n\n**建议选择：XXL 或 XXXL 码**（具体取决于品牌版型）。\n\n由于不同品牌的尺码标准差异较大，强烈建议：\n- 查看商品详情页的 **具体尺寸表**（如胸围、衣长、肩宽等）；\n- 优先选择标注有“**加大码**”“**宽松版型**”或“**专为大体重设计**”的款式；\n- 如有疑问，可咨询店铺客服提供身高、体重，获取精准推荐。\n\n这样能更好地确保合身与穿着舒适度。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "我的体重180斤，尺码推荐",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "根据您提供的体重 **180斤**，并结合常见服装尺码标准（假设身高在170cm左右），您的体型属于大码范围。常规尺码（如M、L）通常适用于体重90–135斤，因此：\n\n**推荐尺码：XXL 或 XXXL**（具体需看品牌版型）。\n\n由于不同品牌尺码差异较大，建议：\n- 优先查看商品详情页的 **具体尺寸数据**（如胸围、衣长等）；\n- 选择标注“**加大码**”“**宽松版型**”或“**适合大体重**”的款式；\n- 如有疑问，提供身高、体重咨询客服以获得精准推荐。\n\n这样可确保穿着合身且舒适。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "夏天衣服颜色推荐",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "夏天推荐选择**清爽、明亮、浅淡的颜色**，有助于视觉降温并契合季节氛围。常见推荐色包括：\n\n- **白色**：百搭、反光、显干净  \n- **浅蓝色**：清新、宁静，如晴空般凉爽  \n- **薄荷绿 / 淡绿色**：自然、舒缓，带来清凉感  \n- **浅粉色 / 裸色**：柔和、温柔，适合日常穿搭  \n- **浅灰 / 米色**：低调耐看，比纯黑更透气感  \n\n避免大面积深色（如纯黑、深棕），因其吸热较强，在高温下易显闷热。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
+    },
+    {
+        "type": "human",
+        "data": {
+            "content": "夏天休闲场合穿衣推荐",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "human",
+            "name": null,
+            "id": null
+        }
+    },
+    {
+        "type": "ai",
+        "data": {
+            "content": "夏天休闲场合穿衣推荐以**舒适、透气、清爽**为核心，兼顾时尚与实用。以下是具体建议：\n\n### 1. **上衣**\n- **T恤**：选择纯棉、莫代尔或再生纤维素纤维（如天丝）材质，吸汗透气；颜色推荐白色、浅蓝、浅灰、薄荷绿等清凉色系。\n- **POLO衫**：比T恤稍正式，适合轻度休闲或半正式场合，选合身但不紧绷的版型。\n- **短袖衬衫**：亚麻或棉质为佳，可单穿或敞开当外套，增加层次感。\n\n### 2. **下装**\n- **短裤**：长度在膝盖上下为宜，材质选棉质、速干面料或亚麻；颜色可搭配上衣，如卡其、藏青、米白等。\n- **休闲长裤**：若需防晒或偏好长裤，可选轻薄棉麻混纺、抽绳阔腿裤或九分裤，保持通风。\n\n### 3. **鞋子**\n- **帆布鞋、板鞋**：轻便百搭  \n- **凉鞋/休闲拖鞋**：适合海滩、市集等极简休闲场景  \n- **网面运动鞋**：兼顾支撑与透气性\n\n### 4. **配饰（可选）**\n- 遮阳帽、墨镜、简约手表或小挎包，提升整体造型感。\n\n> **小贴士**：避免厚重面料（如牛仔、涤纶密织）、深色全身搭配及过于紧身的剪裁，以确保夏日穿着凉爽自在。",
+            "additional_kwargs": {},
+            "response_metadata": {},
+            "type": "ai",
+            "name": null,
+            "id": null,
+            "tool_calls": [],
+            "invalid_tool_calls": [],
+            "usage_metadata": null
+        }
     }
 ]
