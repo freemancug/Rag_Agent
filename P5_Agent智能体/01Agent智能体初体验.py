@@ -26,4 +26,5 @@ res =agent.invoke(
     }
 )  # 调用智能体进行对话
 
-print(res)  # 输出智能体的回答
+for msg in res["messages"]:
+    print(f"{msg.type}: {msg.content}")  # 用属性访问，不是下标
