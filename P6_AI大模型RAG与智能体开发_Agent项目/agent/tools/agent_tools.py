@@ -15,9 +15,9 @@ month_arr = ["2025-01", "2025-02", "2025-03", "2025-04", "2025-05", "2025-06",
 external_data = {}
 
 
-@tool(description="从向量存储中检索参考资料")
-def rag_summarize(query: str) -> str:
-    return rag.rag_summarize(query)
+@tool(description="从向量存储中检索参考资料，可附带已经通过工具获取的环境信息")
+def rag_summarize(query: str, additional_context: str = "") -> str:
+    return rag.rag_summarize(query, additional_context)
 
 
 @tool(description="获取指定城市的天气，以消息字符串的形式返回")

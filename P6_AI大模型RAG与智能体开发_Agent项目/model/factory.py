@@ -5,6 +5,9 @@ from langchain_community.chat_models.tongyi import BaseChatModel
 from langchain_community.embeddings import DashScopeEmbeddings
 from langchain_community.chat_models.tongyi import ChatTongyi
 from utils.config_handler import rag_conf
+from dotenv import load_dotenv
+
+load_dotenv()
 
 
 class BaseModelFactory(ABC):
